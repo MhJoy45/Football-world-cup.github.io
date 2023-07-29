@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background: #f5f5f5;
+  }
+
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-content{
+    width: 100%;
+    margin-top: auto;
+    background: #161616;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    padding: 25px 80px;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.hero-content1{
+    align-items: center;
+    justify-content: center;
+    width: 531px;
+    height: 424px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    
+    
+}
+
+.hero-content1 h1{
+    display: flex;
+    width: 531px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.hero-content1 p{
+    display: flex;
+    width: 506px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.hero-content2 img{
+    width: 581px;
+    height: 613px;
+    flex-shrink: 0;
+}
+
+.btn-2{
+    display: inline-flex;
+    padding: 10px 30px;
+    margin-top: 10px;
+    
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #D00;
+    color: #FFF;
+}
+
+ /* -----------------------
+ style for secound section
+ ------------------------ */
+
+.button-container{
+    width: 312px;
+    height: 312px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #161616;
+    margin-top: 70px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.btn-2{
+    align-items: center;
+}
+
+.btn-3{
+    width: 252px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.btn-4{
+    width: 252px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 20px;
+
+}
+
+.btn-5{
+    width: 252px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D00;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+
+.match{
+    width: 312px;
+    height: 362px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-inline: 10px;
+    
+    
+
+}
+
+.btn-transfer{
+    width: 100px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #161616;
+}
+
+.course-duration{
+    margin-top: 25px;
+    margin-left: 15px;
+    
+}
+
+.course-title{
+    margin-top: 25px;
+}
+
+.btn-transfer{
+    margin-top:10px;
+}
+
+.course-info{
+    margin-left: 15px;
+}
+
+.container-1{
+    display: flex;
+}
+
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+   
+    
+    margin-left: 25px;
+    margin-top: 50px;
+    
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1600px;
+    height: 444px;
+    border-radius: 50px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: #161616;
+    color: white;
+    
+}
+
+
+
+
+
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    
+}
+
+.lin{
+    width: 1320px;
+    height: 1px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    
+    
+}
+li{
+    text-align: center;
+}
+
+
+/* media queries for tablet */
+@media screen and (max-width: 932px){
+
+    .container{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+   
+    
+
+}
